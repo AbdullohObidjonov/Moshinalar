@@ -1,0 +1,583 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.938);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container{
+    width: 1440px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menus{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.menus li a{
+    color: #737373;
+}
+
+
+
+#lady{
+    margin-top: 80px;
+    background-image: url("../images/lady.jpg");
+}
+
+.lady{
+    width: 1440px;
+    height: 680px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.text1{
+    font-size: 58px;
+    color: #252B42;
+}
+
+.text2{
+    font-size: 20px;
+    color: #737373;
+    margin-top: 40px;
+}
+
+.buttons{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.btn1 , .btn2{
+    width: 185px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: #FFA62B;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+}
+
+.btn2{
+    background-color: transparent;
+    color: #00A0C1;
+    border-color: #00A0C1;
+    border-radius: 40px;
+    outline: none;
+}
+
+
+
+#marketing{
+    margin-top: -100px;
+}
+
+.marketing{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.digital{
+    background-color: white;
+    width: 328px;
+    height: 210px;
+    box-shadow: 0px 0px 13px gray;
+    border-radius: 10px;
+    padding: 30px;   
+}
+
+.digital img{
+    width: 48px;
+    height: 48px;
+}
+
+.digital h3{
+    font-size: 24px;
+    margin-top: 16px;
+    color: #252B42;
+}
+
+.digital p{
+    font-size: 14px;
+    color: #737373;
+    margin-top: 16px;
+}
+
+.mar{
+    background-color: #00A0C1;
+}
+
+.mar h3{
+    color: white;
+}
+
+.mar p{
+    color: white;
+}
+
+
+
+#about{
+    margin-top: 200px;
+    width: 100%;
+    height: 450px;
+
+}
+
+.about-text1{
+    font-size: 40px;
+    color: #252B42;
+    text-align: center;
+}
+
+.about-text2{
+    font-size: 14px;
+    color: #737373;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.abouts{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.about{
+    margin-top: 40px;
+    width: 238px;
+    height: 209px;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-rasm{
+    width: 48px;
+    height: 48px;
+}
+
+.about h2{
+    font-size: 40px;
+    color: #252B42;
+    margin-top: 10px;
+}
+
+.about p{
+    font-size: 16px;
+    color: #737373;
+    margin: 10px;
+}
+
+
+.shadow{
+    box-shadow: 0px 0px 8px gray;
+}
+
+.ilon{
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+
+
+#advice{
+    margin-top: 80px;
+}
+
+.advice-container{
+    width: 100%;
+    height: 600px;
+}
+
+.advice-text1{
+    font-size: 40px;
+    color: #252B42;
+    text-align: center;
+}
+
+.advice-text2{
+    font-size: 14px;
+    color: #737373;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.advices{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.advice{
+    width: 238px;
+    height: 300px;
+    background-color: white;
+}
+
+.advice h5{
+    font-size: 16px;
+    line-height: 20px;
+    color: #252B42;
+    padding-top: 30px;
+    padding-left: 30px
+}
+
+.advice p{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #737373;
+}
+
+.advice img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.advice-rasm{
+    height: 142px;
+}
+
+
+
+#business{
+    background-color: white;
+}
+
+.business-container{
+    width: 100%;
+    height: 800px;
+    padding-top: 60px;
+}
+
+.business-text1{
+    font-size: 40px;
+    color: #252B42;
+    text-align: center;
+}
+
+.business-text2{
+    font-size: 14px;
+    color: #737373;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.business-card{
+    margin-top: 80px;
+    padding-right: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 330px;
+    height: 420px;
+}
+
+.card h2{
+    font-size: 40px;
+    color: #252B42;
+    margin-top: 10px;
+}
+
+.card p{
+    font-size: 14px;
+    color: #737373;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.mini-card1 , .mini-card2{
+    width: 333px;
+    height: 77px;
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.mini-rasm{
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+}
+
+
+
+.logotip-container{
+    width: 100%;
+    height: 400px;
+}
+
+.logotip-rasmlar{
+    width: 100%;
+    height: 175px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logotip1{
+    width: 153px;
+    height: 34px;
+}
+
+.logotip2{
+    width: 146px;
+    height: 59px;
+}
+
+.logotip3{
+    width: 152px;
+    height: 75px;
+}
+
+.logotip4{
+    width: 151px;
+    height: 42px;
+}
+
+.logotip5{
+    width: 151px;
+    height: 62px;
+}
+
+.logotip6{
+    width: 151px;
+    height: 72px;
+}
+
+.logotip-info{
+    margin-top: 30px;
+    width: 100%;
+    height: 124px;
+    background-color: #16697A;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub{
+    font-size: 24px;
+    color: white;
+    line-height: 35px;
+}
+
+.logotip-email{
+    width: 450px;
+    height: 58px;
+    background-color: #F9F9F9;
+}
+
+.input{
+    width: 310px;
+    height: 58px;
+    padding-left: 30px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.but{
+    width: 135px;
+    height: 58px;
+    background-color: #FFA62B;
+    font-size: 14px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+.contact-container{
+    width: 100%;
+    height: 250px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact-text1{
+    font-size: 40px;
+    color: #252B42;
+    text-align: center;
+}
+
+.contact-text2{
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #737373;
+    text-align: center;
+}
+
+.contact-cards{
+    width: 100%;
+    height: 333px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-card{
+    width: 329px;
+    height: 333px;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.contact-rasm{
+    width: 72px;
+    height: 72px;
+    margin-top: 30px;
+}
+
+.contact-card h6{
+    color: #252B42;
+    font-size: 14px;   
+}
+
+.contact-title1{
+    margin-top: 20px;
+}
+
+.contact-title2{
+    margin-top: 8px;
+}
+
+.get{
+    margin-top: 30px;
+    font-size: 16px;
+    color: #252B42;
+}
+
+.submit{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #FFA62B;
+    width: 165px;
+    height: 44px;
+    background-color: white;
+    border-color: #FFA62B;
+    cursor: pointer;
+}
+
+.cardcha{
+    background-color: #252B42;
+}
+
+.cardcha h6{
+    color: white;
+}
+
+.cardcha h5{
+    color: white;
+}
+
+.cardcha button{
+    color: white;
+    border-color: white;
+    background-color: #252B42;
+}
+
+
+
+.footer-container{
+    width: 100%;
+    height: 300px;
+    background-color: #16697A;
+    margin-top: 80px;
+}
+
+.footer-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-card{
+    width: 160px;
+    height: 170px;
+    margin-top: 30px;
+    
+}
+
+.footer-card h1{
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.footer-info{
+    color: white;
+    list-style: none;
+    line-height: 30px;
+    margin: 30px;
+    font-size: 10px;
+}
+
+.foot-rasm{
+    width: 18px;
+    height: 18px;
+}
+
+.foot-disp{
+    display: flex;
+    gap: 5px;
+}
+
+.foot-whith{
+    width: 220px;
+    height: 153px;
+}
